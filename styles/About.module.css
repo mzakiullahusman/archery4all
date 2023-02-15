@@ -1,0 +1,42 @@
+.container {
+  max-width: 45vw;
+  margin: 45px auto;
+}
+
+.center {
+  text-align: center;
+}
+
+.container h2 {
+  padding-top: 1.5rem;
+}
+
+@media only screen and (max-width: 700px) {
+  .container {
+    max-width: 80vw;
+    margin: 25px auto;
+  }
+
+  .center {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .center h1 {
+    font-size: 10px;
+    margin-top: 100px;
+  }
+/* 
+  .mainnav ul {
+    display: flex;
+    justify-content: center;
+    position: static; 
+    width: 100%;
+  }
+  
+  .mainnav ul li {
+    margin: 0 8px;
+    list-style: none;
+    font-weight: bold;
+  } */
+}

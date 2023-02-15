@@ -1,0 +1,41 @@
+.blogs h2 {
+    /* margin: 10px; */
+    /* padding: 2rem; */
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .blogitem h3 {
+    /* margin: 10px; */
+    /* padding: 2rem; */
+    padding-top: 1rem;
+    cursor: pointer;
+  }
+  
+  .blogitem p {
+    /* margin: 10px; */
+    /* padding: 2rem; */
+    padding: 0.5rem 0.5rem 0.5rem 0;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    min-height: 100vh;
+    justify-content: flex-start;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+  }
+
+  .btn {
+    color:aliceblue;
+    background: black;
+    padding: 7px 6px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 12px;
+  }
